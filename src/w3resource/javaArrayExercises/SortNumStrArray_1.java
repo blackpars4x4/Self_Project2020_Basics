@@ -1,11 +1,10 @@
-package replitProjects;
+package w3resource.javaArrayExercises;
 
 import java.util.Arrays;
 
-public class SortNumStrArray {
+public class SortNumStrArray_1 { // 1. Write a Java program to sort a numeric array and a string array.
 
     public static void main(String[] args) {
-
 
         int[] arr1 = {-2567, 5600, 322, 1200, 5467};
         String[] arr2 = {"Emre", "Dervis", "Burak", "uludag"};
@@ -20,5 +19,4 @@ public class SortNumStrArray {
         System.out.println("String Array Sorting: " + Arrays.toString(arr2));
 
     }
-
 }
