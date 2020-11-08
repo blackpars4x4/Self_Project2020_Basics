@@ -1,6 +1,6 @@
 package w3resource.javaArrayExercises;
 
-public class PrintGrid {
+public class w3_3_PrintGrid {
     /*
     3. Write a Java program to print the following grid. Go to the editor
 

@@ -2,7 +2,7 @@ package w3resource.javaArrayExercises;
 
 import java.util.Arrays;
 
-public class SortNumStrArray_1 { // 1. Write a Java program to sort a numeric array and a string array.
+public class w3_1_SortNumStrArray { // 1. Write a Java program to sort a numeric array and a string array.
 
     public static void main(String[] args) {
 
