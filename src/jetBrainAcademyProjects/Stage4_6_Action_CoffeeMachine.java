@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Stage4_6_Action_CoffeeMachine {
 
-    static void buy(int water, int milk, int beans , int cups, int money) {
+    static void buy(int water, int milk, int beans, int cups, int money) {
 
         /* If the user writes "buy" then they must choose one of three varieties of coffee that
             the coffee machine can make: espresso, latte, or cappuccino.
@@ -42,6 +42,7 @@ And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk
                         beans + " of coffee beans\n" +
                         cups + " of disposable cups\n" +
                         money + " of money");
+
                 break;
 
             case 3://Cappuccino
@@ -62,15 +63,29 @@ And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk
 
     }
 
-    static void fill(int water, int milk, int beans, int cups) {
+    static void fill(int water, int milk, int beans, int cups, int money) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Write how many ml of water do you want to add: ");
+        water += scanner.nextInt();
+        System.out.println("Write how many ml of milk do you want to add: ");
+        milk += scanner.nextInt();
+        System.out.println("Write how many grams of coffee beans do you want to add: ");
+        beans += scanner.nextInt();
+        System.out.println("Write how many disposable cups of coffee do you want to add: ");
+        cups += scanner.nextInt();
+
+        System.out.println("The coffee machine has:\n" +
+                water + " of water\n" +
+                milk + " of milk\n" +
+                beans + " of coffee beans\n" +
+                cups + " of disposable cups\n" +
+                money + " of money");
+
 
     }
 
-    static void take(int money) {
 
-    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -93,15 +108,28 @@ And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk
         switch (action) {
 
             case "buy":
+
                 buy(water, milk, beans, cups, money);
 
                 break;
 
             case "fill":
 
+                fill(water, milk, beans, cups, money);
+
                 break;
 
             case "take":
+
+                System.out.println("I gave you $" + money);
+                money -= money;
+
+                System.out.println("The coffee machine has:\n" +
+                        water + " of water\n" +
+                        milk + " of milk\n" +
+                        beans + " of coffee beans\n" +
+                        cups + " of disposable cups\n" +
+                        money + " of money");
 
                 break;
 
