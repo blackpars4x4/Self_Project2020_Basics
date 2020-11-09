@@ -225,10 +225,7 @@ And for the cappuccino, the coffee machine needs 200 ml of water, 100 ml of milk
                                 money + " of money");
 
                         break;
-
                 }
-
-
 
                 break;
             case 5:
