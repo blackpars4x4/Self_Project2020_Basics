@@ -1,7 +1,31 @@
 package jetBrainPractice;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class RightRotationWithArray {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String[] stringArray = str.split(" ");
+        int[] array = new int[stringArray.length];
+        int[] array2 = new int[array.length];
+        for (int i = 0; i < stringArray.length; i++) {
+            array[i] = Integer.parseInt(stringArray[i]);
+        }
+        int rotation = scanner.nextInt() % array.length;//!!!????
+
+        for (int i = 0; i < array.length; i++) {
+            if (i + rotation < array.length) {
+                array2[i + rotation] = array[i];
+            } else {
+                array2[i + rotation - array.length] = array[i];
+            }
+        }
+        for (int each : array2) {
+            System.out.print(each + " ");
+        }
+
 
     }
 }
