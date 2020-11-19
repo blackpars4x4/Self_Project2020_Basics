@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class ArraysFirstLastChar_110 {
+public class R110_ArraysFirstLastChar {
     /*
     Given a String array words, iterate through each word and
     print first and last letter of each element in separate lines.

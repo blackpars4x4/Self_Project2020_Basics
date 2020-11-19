@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Arrays;
 
-public class ArraysFindNonDuplicate_122 {
+public class R122_ArraysFindNonDuplicate {
     public static void main(String[] args) {
 
         int[] nums = {1, 1, 2, 3, 4, 3, 4};

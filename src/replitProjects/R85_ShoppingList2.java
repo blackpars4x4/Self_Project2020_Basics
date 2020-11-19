@@ -5,7 +5,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class ShoppingList2_85 {
+public class R85_ShoppingList2 {
     /*
 
      */

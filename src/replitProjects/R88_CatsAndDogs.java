@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class CatsAndDogs_88 {
+public class R88_CatsAndDogs {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int countOfDogs = 0;

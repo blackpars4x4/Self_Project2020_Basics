@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class Email1_76 {
+public class R76_Email1 {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package replitProjects;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Arrays_ReverseArray_124 {
+public class R124_Arrays_ReverseArray {
     public static void main(String[] args) {
 
 

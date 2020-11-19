@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Arrays;
 
-public class ArrayFindMaxLengthInString_115 {
+public class R115_ArrayFindMaxLengthInString {
 
     public static void main(String[] args) {
 

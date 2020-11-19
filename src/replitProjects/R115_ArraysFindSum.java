@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class ArraysFindSum_115 {
+public class R115_ArraysFindSum {
 
     public static void main(String[] args) {
 

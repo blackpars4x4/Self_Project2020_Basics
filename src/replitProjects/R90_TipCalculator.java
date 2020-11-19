@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class TipCalculator_90 {
+public class R90_TipCalculator {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

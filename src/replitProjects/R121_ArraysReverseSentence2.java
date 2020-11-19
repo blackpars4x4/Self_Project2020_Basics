@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Arrays;
 
-public class ArraysReverseSentence2_121 {
+public class R121_ArraysReverseSentence2 {
 
     public static void main(String[] args) {
         String str = "Java is fun";

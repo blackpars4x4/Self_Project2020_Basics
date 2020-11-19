@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class Online_Book_Merchants_84 {
+public class R84_Online_Book_Merchants {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

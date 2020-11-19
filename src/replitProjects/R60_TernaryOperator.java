@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class TernaryOperator60 {//60-61
+public class R60_TernaryOperator {//60-61
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class Print97Asterisks_112 {
+public class R112_Print97Asterisks {
     public static void main(String[] args) {
 
 

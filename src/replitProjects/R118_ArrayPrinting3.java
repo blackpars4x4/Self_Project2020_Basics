@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class ArrayPrinting3_118 {
+public class R118_ArrayPrinting3 {
     public static void main(String[] args) {
 
         String[] arr = {"apple", "banana","kiwi", "grape","milk","soda"};

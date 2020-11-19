@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class ZombieAttack_87 {
+public class R87_ZombieAttack {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("inhabitants is ");

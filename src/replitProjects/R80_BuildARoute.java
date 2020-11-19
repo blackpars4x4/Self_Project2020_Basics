@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class BuildARoute_80 {
+public class R80_BuildARoute {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

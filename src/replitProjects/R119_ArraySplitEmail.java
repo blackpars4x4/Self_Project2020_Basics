@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class ArraySplitEmail_119 {
+public class R119_ArraySplitEmail {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String email = scan.nextLine();

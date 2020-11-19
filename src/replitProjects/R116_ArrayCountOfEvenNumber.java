@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class ArrayCountOfEvenNumber_116 {
+public class R116_ArrayCountOfEvenNumber {
     public static void main(String[] args) {
 
        int[] arr = {1, 1,21,21,25,13, 17, 29, 11,3} ;

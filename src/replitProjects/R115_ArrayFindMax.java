@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class ArrayFindMax_115 {
+public class R115_ArrayFindMax {
     public static void main(String[] args) {
 
         int[] arr = {2,4,2,3,-2};

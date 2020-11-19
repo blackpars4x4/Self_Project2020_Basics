@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class MiddleOne64 {
+public class R64_MiddleOne {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

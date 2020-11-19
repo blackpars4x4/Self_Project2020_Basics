@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class StringNoEnd_82 {
+public class R82_StringNoEnd {
 
     public static void main(String[] args) {
 

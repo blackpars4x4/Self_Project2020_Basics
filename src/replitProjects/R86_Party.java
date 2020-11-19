@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class Party_86 {
+public class R86_Party {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

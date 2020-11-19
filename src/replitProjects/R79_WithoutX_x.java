@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class WithoutX_x_79 {
+public class R79_WithoutX_x {
 
     public static void main(String[] args) {
 

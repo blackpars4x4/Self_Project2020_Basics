@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class First_Two_Characters_83 {
+public class R83_First_Two_Characters {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String txt = scan.nextLine();

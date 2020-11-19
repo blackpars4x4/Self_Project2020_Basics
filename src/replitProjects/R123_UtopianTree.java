@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class UtopianTree_123 {
+public class R123_UtopianTree {
 
     public static void main(String[] args) {
         String output;

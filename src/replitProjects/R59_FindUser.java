@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class FindUser59 {
+public class R59_FindUser {
 
     public static void main(String[] args) {
 

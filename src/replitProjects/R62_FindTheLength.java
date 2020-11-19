@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class FindTheLength62 {
+public class R62_FindTheLength {
 
     public static void main(String[] args) {
 

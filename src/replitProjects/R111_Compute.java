@@ -1,6 +1,6 @@
 package replitProjects;
 
-public class Compute_111 {
+public class R111_Compute {
 
     public static void main(String[] args) {
 
