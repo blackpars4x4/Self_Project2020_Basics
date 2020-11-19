@@ -1,6 +1,7 @@
 package replitProjects;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class R_ArraysUtility {
     public static String printShortestWord(String[] str){
