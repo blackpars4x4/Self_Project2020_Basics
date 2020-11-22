@@ -17,7 +17,7 @@ public class R130_Arrays_ShiftLeft {
             int[] newArr = new int[size];
             for (int i = 0, j = 1; i < arr.length - 1; i++, j++) {
                 newArr[i] = arr[j];
-                if(j == newArr.length - 1){
+                if (j == newArr.length - 1) {
                     newArr[j] = arr[0];
                 }
             }
