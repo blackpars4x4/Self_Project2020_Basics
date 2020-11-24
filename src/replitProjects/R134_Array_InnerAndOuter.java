@@ -10,9 +10,11 @@ public class R134_Array_InnerAndOuter {
         int sizeOuter = scan.nextInt();
         int[] inner = new int[sizeInner];
         int[] outer = new int[sizeOuter];
+        System.out.println("Inner inputs");
         for (int i = 0; i < sizeInner; i++) {
             inner[i] = scan.nextInt();
         }
+        System.out.println("Outer inputs");
         for (int j = 0; j < sizeOuter; j++) {
             outer[j] = scan.nextInt();
         }
@@ -20,7 +22,17 @@ public class R134_Array_InnerAndOuter {
         Arrays.sort(outer);
         //WRITE YOUR CODE HERE
 
+        int count = 0;
 
+        for(int i = 0; i <sizeInner; i++){
+            for (int j = 0; j <sizeOuter; j++){
+                if(inner[i] == outer[j]){
+                    count++;
+                    break;
+                }
+            }
+        }
+        System.out.println(count == sizeInner);
 
 
     }

@@ -4,40 +4,39 @@ import java.util.Scanner;
 
 import java.util.*;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int sizeInner = scan.nextInt();
-        int sizeOuter = scan.nextInt();
-        int[] inner = new int[sizeInner];
-        int[] outer = new int[sizeOuter];
-        for(int i =0; i < sizeInner; i++) {
-            inner[i] = scan.nextInt();
-        }
-        for(int j =0; j < sizeOuter; j++) {
-            outer[j] = scan.nextInt();
-        }
-        Arrays.sort(inner);
-        Arrays.sort(outer);
-        //WRITE YOUR CODE HERE
-        int count = 0;
-        for (int i = 0; i < sizeInner; i++) {
-            for (int j = 0; j < sizeOuter; j++) {
-                if (inner[i] == outer[j]) {
+
+        Scanner input = new Scanner(System.in);
+        int[] nums = {input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt()};
+
+/*
+nums → [1, 5, 5, 1, 1] → true
+nums → [1, 8, 5, 5, 0] → true
+nums → [1, 5, 4, 1, 5] → false
+nums → [1, 4, 4, 1, 99] → false
+ */
+
+        int count=0;
+        for (int i = 0; i < 4; i++) {
+            if (nums[i] == 5) {
+                count++;
+                if (nums[i + 1] == 5) {
+                    System.out.println(true);
                     count++;
-                    break;
+                }
+                for (int j = i + 2; j < 5; j++) {
+                    if (nums[j] == 5) {
+                        count++;
+                        System.out.println(false);
+                    }
                 }
             }
         }
 
-
-        if (count == sizeInner) {
-            System.out.println(true);
-        } else {
+        if (count==0){
             System.out.println(false);
         }
-
-
 
     }
 }
