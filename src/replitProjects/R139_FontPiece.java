@@ -1,5 +1,6 @@
 package replitProjects;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class R139_FontPiece {
@@ -11,17 +12,19 @@ public class R139_FontPiece {
         for (int i = 0; i < size; i++) {
             num[i] = scan.nextInt();
         }
+
         //WRITE YOUR CODE HERE
-        int[] arr = new int[size];
+        if (size > 1) {
+            int[] arr = new int[2];
 
-        for(int i = 0; i <2; i++){
-            arr[i] = num[i];
+            for (int i = 0; i < 2; i++) {
+                arr[i] = num[i];
+            }
+            System.out.println(Arrays.toString(arr));
+        } else {
+            System.out.println(Arrays.toString(num));
         }
-        System.out.println(arr);
-
-
     }
-
 }
 /*
 Given an int array of any length, print a new array of its first 2 elements.
