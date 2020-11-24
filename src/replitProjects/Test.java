@@ -5,17 +5,17 @@ import java.util.Scanner;
 import java.util.*;
 
 public class Test {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         int[] nums = {input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt(), input.nextInt()};
 
-/*
+*//*
 nums → [1, 5, 5, 1, 1] → true
 nums → [1, 8, 5, 5, 0] → true
 nums → [1, 5, 4, 1, 5] → false
 nums → [1, 4, 4, 1, 99] → false
- */
+ *//*
 
         int count=0;
         for (int i = 0; i < 4; i++) {
@@ -38,5 +38,19 @@ nums → [1, 4, 4, 1, 99] → false
             System.out.println(false);
         }
 
+    }*/
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String sentence = input.nextLine();
+
+        String[] n=sentence.split(" ");
+
+        int i=n.length-1;
+        while (i>=0 ) {
+            System.out.println(n[i--]);
+        }
+
+        //TODO: Type your code below
     }
 }
