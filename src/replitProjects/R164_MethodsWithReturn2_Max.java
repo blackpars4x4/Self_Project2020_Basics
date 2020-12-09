@@ -2,7 +2,7 @@ package replitProjects;
 
 import java.util.Scanner;
 
-public class R162_MethodsWithReturn2_Max {
+public class R164_MethodsWithReturn2_Max {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
