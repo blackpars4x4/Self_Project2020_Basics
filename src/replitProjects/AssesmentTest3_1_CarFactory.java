@@ -17,7 +17,16 @@ public class AssesmentTest3_1_CarFactory {
             } else {
                 System.out.println(false);
             }
-        }else if(year >= 2015 && year <=2012)
+        }else if(model.equalsIgnoreCase("Guzzler")) {
+            if (year >= 2015 && year <=2018 ){
+                System.out.println(true);
+            }else {
+                System.out.println(false);
+            }
+
+        }else{
+            System.out.println(false);
+        }
 
     }
 
