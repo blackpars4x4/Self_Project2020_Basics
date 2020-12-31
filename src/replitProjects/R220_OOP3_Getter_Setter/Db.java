@@ -1,11 +1,11 @@
 package replitProjects.R220_OOP3_Getter_Setter;
 
-public class Db {
+class Db {
 
     private String data;
     private int yint;
 
-    public void insertdata(String data, int yint) {
+    public void insertData(String data, int yint) {
         this.data = data;
         this.yint = yint;
     }

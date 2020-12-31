@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Db db = new Db();
-        db.insertdata("aaa",123);
+        db.insertData("aaa",123);
 
 
         System.out.println(db.getData());//aaa

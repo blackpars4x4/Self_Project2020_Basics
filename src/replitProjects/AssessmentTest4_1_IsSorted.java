@@ -7,14 +7,19 @@ import static java.util.Arrays.sort;
 public class AssessmentTest4_1_IsSorted {
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3};
+        int[] arr = {1,5,3};
         System.out.println(isSort(arr));
 
     }
     public static boolean isSort(int[] nums) {
 
 
-         int[] temp = nums;
+
+         int[] temp = new int[nums.length];
+        System.arraycopy(nums, 0, temp, 0, nums.length);
+        /*for (int i = 0; i < nums.length; i++) {
+            temp[i] = nums[i];
+        }*/
          Arrays.sort(temp);
 
          if(nums == temp){
