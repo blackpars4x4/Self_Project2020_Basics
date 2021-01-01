@@ -1,7 +1,68 @@
 package replitProjects.Pizza;
 
 public class Pizza {
+    private String size;
+    private int cheeseToppings, pepperoniToppings, hamToppings;
 
+    public Pizza(String size, int cheeseToppings, int pepperoniToppings, int hamToppings) {
+        this.size = size;
+        this.cheeseToppings = cheeseToppings;
+        this.pepperoniToppings = pepperoniToppings;
+        this.hamToppings = hamToppings;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public int getCheeseToppings() {
+        return cheeseToppings;
+    }
+
+    public void setCheeseToppings(int cheeseToppings) {
+        this.cheeseToppings = cheeseToppings;
+    }
+
+    public int getPepperoniToppings() {
+        return pepperoniToppings;
+    }
+
+    public void setPepperoniToppings(int pepperoniToppings) {
+        this.pepperoniToppings = pepperoniToppings;
+    }
+
+    public int getHamToppings() {
+        return hamToppings;
+    }
+
+    public void setHamToppings(int hamToppings) {
+        this.hamToppings = hamToppings;
+    }
+
+    public double calcCost() {
+        double result = 0;
+        if (size.equalsIgnoreCase("small")) {
+            result = 10 + 2 * cheeseToppings + 2 * pepperoniToppings + 2 * hamToppings;
+        } else if (size.equalsIgnoreCase("medium")) {
+            result = 12 + 2 * cheeseToppings + 2 * pepperoniToppings + 2 * hamToppings;
+        } else if (size.equalsIgnoreCase("large")) {
+            result = 14 + 2 * cheeseToppings + 2 * pepperoniToppings + 2 * hamToppings;
+        }
+        return result;
+    }
+
+    public String getDescription() {
+        return
+                size + " Pizza with " +
+                        cheeseToppings + " Cheese toppings, " +
+                        pepperoniToppings + " Pepperoni toppings, and " +
+                        hamToppings + " hamToppings.\n"
+                        + "Total Price: " + calcCost() ;
+    }
 }
 /*
 Create a class named Pizza that stores information about a single pizza.
