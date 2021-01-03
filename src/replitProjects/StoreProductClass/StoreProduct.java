@@ -34,8 +34,11 @@ public class StoreProduct {
         this.hasExpiration = hasExpiration;
     }
     public void expired(boolean hasExpired) {
-        if(hasExpiration && hasExpired) {
-            stock = 0;
+
+        if(hasExpiration = true) {
+            if (hasExpired) {
+                stock = 0;
+            }
         }
     }
     public boolean sale (int quantity) {
