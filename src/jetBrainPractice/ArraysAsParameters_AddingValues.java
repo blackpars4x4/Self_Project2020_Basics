@@ -7,15 +7,15 @@ public class ArraysAsParameters_AddingValues {
     // write a method here
 
     public static void addValueByIndex(long[] array, int index, long value) {
-        /*long[] newArray = new long[array.length];*/
+        array[index] += value;
 
-        for (int i = 0; i < array.length; i++) {
+        /*for (int i = 0; i < array.length; i++) {
             if (i == index) {
                 array[i] = value + array[i];
             } else {
                 array[i] = array[i];
             }
-        }
+        }*/
     }
 
     // don't change the code below
